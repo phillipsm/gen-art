@@ -1,0 +1,32 @@
+#counter-panel {
+	position: fixed;
+	bottom: 50;
+	right: 50;
+	z-index: 1000;
+	display: none;
+}
+
+#counter-panel p {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+#counter-panel p.count {
+	font-size: 200px;
+	line-height: 180px;
+	color: #c9a16e;
+	text-align: center;
+}
+
+#counter-panel .count-description {
+	background-color: #c9a16e;
+}
+
+
+#counter-panel .count-description p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding: 2px 8px;
+	font-size: 22px;
+	font-weight: 200;
+	color: #fff;
+}
